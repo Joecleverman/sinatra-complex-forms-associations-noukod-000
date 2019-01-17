@@ -1,7 +1,6 @@
 class OwnersController < ApplicationController
 
   get '/' do
-    "Hello World"
   end
 end
 
