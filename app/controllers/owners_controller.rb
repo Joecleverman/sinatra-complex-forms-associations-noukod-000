@@ -42,4 +42,4 @@ end
     end
     redirect to "owners/#{@owner.id}"
   end
-end
+#end
