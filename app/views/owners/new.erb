@@ -2,11 +2,11 @@
 
 <form action="/owners" method="POST">
   <label>Name:</label>
-  
+
   <br></br>
-  
+
   <input type="text" name="owner[name]">
-  
+
   <br></br>
 
   <label>Choose an existing pet:</label>
@@ -19,6 +19,12 @@
   <% end %>
 
   <br></br>
-  
+  <label>and/or, create a new pet:</label>
+  <br></br>
+  <label>Name:</label>
+    <input type="text" name="pet[name]"></input>
+
+  <br></br>
+
   <input type="submit" value="Create Owner">
 </form>
